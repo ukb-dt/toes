@@ -1,3 +1,23 @@
+
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
 # A
 Here's a beautifully poetic way to describe the **universal topology of engineered systems**—almost like a haiku of control theory, thermodynamics, and stochastic dynamics rolled into one. Let's unpack your symbolic expression step by step, with rigor and reverence for its elegance:
 
